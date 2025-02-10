@@ -30,7 +30,7 @@ function App() {
         onChange={setSecondInput}
         placeholder="second input"
       />
-      <Button onClick={() => addNumbers(firstInput, secondInput)} title="Sum" />
+      <Button onClick={() => addNumbers(firstInput, secondInput)} title="=" />
       <Screen result={result} />
     </div>
   );
